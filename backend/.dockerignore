@@ -1,0 +1,63 @@
+# Node modules (installed inside container instead)
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist
+build
+.next
+out
+coverage
+
+# Dependency directories
+jspm_packages
+bower_components
+
+# Environment variables
+.env
+.env.*.local
+
+# Docker files themselves (optional)
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode
+.idea
+*.swp
+
+# Tests (optional, if not needed in image)
+test
+tests
+__tests__
+
+# Documentation (optional)
+docs
+*.md
+
+# Temporary files
+tmp
+temp
+*.tmp
